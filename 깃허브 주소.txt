@@ -1,0 +1,29 @@
+https://github.com/thstjdwls10/seongjin.git
+
+#깃에 업로드 하는방법
+cd C:\Users\seongjin.son\Desktop\파이썬공부\깃허브\seongjin
+
+git add [파일/폴더 이름]
+
+ git commit -m [하고싶은말]
+
+git push -u origin master  #이거 다들씀
+
+#삭제하기 방법
+
+git rm -rf {삭제하고 싶은 폴더나 파일} 
+
+git commit -m [하고싶은말]
+
+git push -u origin master  #이거 다들씀
+
+git rm -r --cached {파일 및 폴더명} #원격저장소에 있는거 삭제
+
+
+
+하면 올라감
+
+#깃에잇는거 불러오는방법
+https://lsjsj92.tistory.com/592
+
+pip install git+https://github.com/thstjdwls10/seongjin.git
